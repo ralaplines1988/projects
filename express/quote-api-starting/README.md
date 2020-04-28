@@ -7,6 +7,10 @@ This means if you are interested on this project, you need follow the stpes belo
 3. You can execute the command node -v to see the current version of Node, if it succeed.
 4. Execute node server.js, and you can see the implement!
 
+
+---
+Below is my personal note
+
 ## My personal note for Express.js and Node.js
 
 With the command `node filename` to start a javascript written in a *filename*
