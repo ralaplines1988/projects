@@ -11,7 +11,7 @@ This means if you are interested on this project, you need follow the stpes belo
 
 With the command `node filename` to start a javascript written in a *filename*
 
-**CRUD** is not necessary for all API, depend on situations.
+CRUD is not necessary for all API, depend on situations.
 
 To import the Express module and invoke the express function
 
