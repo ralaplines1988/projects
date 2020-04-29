@@ -71,4 +71,5 @@ app.get('/monsters', (req, res, next) => {
   res.send(monsters);
 });
 ```
-
+Request sometime means the query sent by our client, for we are build API here, the request now means the queries we receieved by our API.
+Requests matches by order, from first to last, and it must match exactly the same path written in the route.
