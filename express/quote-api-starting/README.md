@@ -62,4 +62,13 @@ app.use(express.static('public'));
 
 ### About Response
 
-One request one response
+One request one response.
+There are several useful methods on two objects, req and res, which mean response will be sent later by our API and the resquest recieved by our API.
+
+To send information we want send, we can use:
+```
+app.get('/monsters', (req, res, next) => {
+  res.send(monsters);
+});
+```
+
