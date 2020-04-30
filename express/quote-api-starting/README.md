@@ -73,3 +73,21 @@ app.get('/monsters', (req, res, next) => {
 ```
 Request sometime means the query sent by our client, for we are building API here, the request now means the queries we receieved by our API.
 Requests matches by order, from first to last, and it must match exactly the same path written in the route.
+
+### About Named route parameters
+
+Parameters are route path segments that begin with : in their Express route definitions. They act as wildcards, matching any text at that path segment. 
+
+For example:
+```
+/monsters/:id will match both/monsters/1 and /monsters/45
+```
+```
+const monsters = { hydra: { height: 3, age: 4 }, dragon: { height: 200, age: 350 } };
+// GET /monsters/hydra
+app.get('/monsters/:name', (req, res, next) => {
+  console.log(req.params) // { name: 'hydra' };
+  res.send(monsters[req.params.name]);//{ height: 3, age: 4 }
+});
+```
+Not all APIs implement route parameters but when they do, it most commonly does not access sensitive data, unless it also requires to have an API key to access the response from such route.
