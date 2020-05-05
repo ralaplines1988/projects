@@ -128,3 +128,15 @@ There are five types of status codes:
 5. And starting with **5xx**, which are responses related to server errors, which we as developers also have to keep an eye for, like **502** bad gateway, which lets us know that there is a problem with how our server is sending the response.
 
 The more detail we can be with our res.status() responses, the easier and more productive it will be for us and other developers to upkeep our API or server.
+
+
+### How to update some thing in database? Using query string.
+
+Query string is almost the most common way you will encounter in your coding travel while connecting with some API.
+
+They are indicated with a `?` character. 
+For instance
+```
+/monsters/1?name=chimera&age=1
+```
+The query string is `name=chimera&age=1` and the path is `/monsters/1/`
