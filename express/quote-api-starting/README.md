@@ -91,3 +91,20 @@ app.get('/monsters/:name', (req, res, next) => {
 });
 ```
 Not all APIs implement route parameters but when they do, it most commonly does not access sensitive data, unless it also requires to have an API key to access the response from such route.
+
+
+### Setting Response code
+
+Use status() method on res object to send back the status code to client, and chain the send() method after it.
+
+```
+const monsterStoreInventory = { fenrirs: 4, banshees: 1, jerseyDevils: 4, krakens: 3 };
+app.get('/monsters-inventory/:name', (req, res, next) => {
+  const monsterInventory = monsterStoreInventory[req.params.name];
+  if (monsterInventory) {
+    res.send(monsterInventory);
+  } else {
+    res.status(404).send('Monster not found');
+  }
+});
+```
