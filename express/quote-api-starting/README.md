@@ -13,6 +13,15 @@ Below is my personal note
 
 ## My personal note for Express.js and Node.js
 
+**CRUD** (Create, Read, Update, and Delete)
+
+```
+Create ---------> POST
+Read -----------> GET
+Update --------> PUT
+Delete ---------> DELETE
+```
+
 With the command `node filename` to start a javascript written in a *filename*
 
 CRUD is not necessary for all API, depend on situations.
