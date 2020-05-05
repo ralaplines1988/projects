@@ -21,6 +21,7 @@ Read -----------> GET
 Update --------> PUT
 Delete ---------> DELETE
 ```
+Does a RESTful API requires its endpoints have full CRUD functionality? [Answer](https://discuss.codecademy.com/t/do-we-always-use-all-methods-in-an-api/402421/2)
 
 With the command `node filename` to start a javascript written in a *filename*
 
