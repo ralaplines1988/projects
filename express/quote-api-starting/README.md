@@ -132,7 +132,7 @@ The more detail we can be with our res.status() responses, the easier and more p
 
 ### How to update some thing in database? Using query string.
 
-Query string is almost the most common way you will encounter in your coding travel while connecting with some API.
+Query string is almost the most common way you will encounter in your coding travel while connecting with an API.
 
 They are indicated with a `?` character. 
 For instance
