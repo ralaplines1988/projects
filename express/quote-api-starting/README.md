@@ -84,7 +84,7 @@ app.get('/monsters', (req, res, next) => {
 Request sometime means the query sent by our client, for we are building API here, the request now means the queries we receieved by our API.
 Requests matches by order, from first to last, and it must match exactly the same path written in the route.
 
-### About Named route parameters
+### About Named route parameters, looking for some thing specific.
 
 Parameters are route path segments that begin with : in their Express route definitions. They act as wildcards, matching any text at that path segment. 
 
