@@ -111,10 +111,10 @@ app.get('/monsters-inventory/:name', (req, res, next) => {
 Status codes help people trying to access the response to know if something went wrong or is missing, and it helps us as developers to debug our calls or API depending on the response code.
 
 There are five types of status codes:
-1. Starting with **1xx** are informational responses, they just clarify that for example: 102 it is being processed.
-2. Starting with **2xx** are success responses, like our very good friend 200 ok response, that lets us know that the data we received or that the process we requested was successfully done.
+1. Starting with **1xx** are informational responses, for example: 102 it is being processed.
+2. Starting with **2xx** are success responses, like 200 ok response, that lets us know that the data we received or that the process we requested was successfully done.
 3. Starting with **3xx** are redirection related responses, they declared if the endpoint you requested had moved and that you are being redirected there 301.
-4. Starting with **4xx** are responses with client errors, like the well known 404 page or content not found, or the detested 403 forbidden that lets us know that the request was properly done but we do not have permissions to access its content.
-5. And starting with **5xx**, which are responses related to server errors, which we as developers also have to keep an eye for, like 502 bad gateway, which lets us know that there is a problem with how our server is sending the response.
+4. Starting with **4xx** are responses with client errors, like the well known 404 page or content not found, or the detested **403** forbidden that lets us know that the request was properly done but we do not have permissions to access its content.
+5. And starting with **5xx**, which are responses related to server errors, which we as developers also have to keep an eye for, like **502** bad gateway, which lets us know that there is a problem with how our server is sending the response.
 
-Knowing this, the more detail we can be with our res.status() responses, the easier and more productive it will be for us and other developers to upkeep our API or server.
+The more detail we can be with our res.status() responses, the easier and more productive it will be for us and other developers to upkeep our API or server.
