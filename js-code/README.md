@@ -1,4 +1,4 @@
-### Name Vonvention
+### Name Convention
 
 1. JavaScript : **camelCasing** e.g. **camelCaseEverything**
 
