@@ -10,6 +10,14 @@ let, const, String Interpolation.
 
 Think about whether you’ll need to reassign the variable later on. If you do need to reassign the variable use let, otherwise, use const
 
+### String Interpolation - template literals
+
+```
+const myPet = 'armadillo';
+console.log(`I own a pet ${myPet}.`);
+// Output: I own a pet armadillo.
+```
+
 ### operating order in js.
 
 Depanding on diffrent operator, some of them are right to left, or left to right.
