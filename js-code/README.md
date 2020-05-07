@@ -1,4 +1,4 @@
-From top to bottom, if you don't consider hoist.
+From top to bottom, if don't consider hoist.
 
 ### Name Convention
 
