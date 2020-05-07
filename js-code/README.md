@@ -20,12 +20,16 @@ console.log(msg [, subst1, ..., substN]);
 
 ### Postfix and Prefix about Increment (++)
 
+* If used postfix, with operator after operand (for example, x++), then it increments and returns the value before incrementing.
+* If used prefix, with operator before operand (for example, ++x), then it increments and returns the value after incrementing.
+
+
 ```
 // Postfix 
 var x = 3;
-y = x++; // y = 3, x = 4
+y = x++; // y = 3, x = 4 return operand first, so the value of y is 3.
 
 // Prefix
 var a = 2;
-b = ++a; // a = 3, b = 3
+b = ++a; // a = 3, b = 3 operator execute first, so value of b is 3.
 ```
