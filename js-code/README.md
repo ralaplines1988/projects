@@ -2,6 +2,10 @@
 
 1. JavaScript : **camelCasing** e.g. **camelCaseEverything**
 
+### ES6 2015
+
+let, const, String Interpolation.
+
 ### let or const
 
 Think about whether you’ll need to reassign the variable later on. If you do need to reassign the variable use let, otherwise, use const
