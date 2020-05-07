@@ -1,3 +1,5 @@
+From top to bottom, if you don't consider hoist.
+
 ### Name Convention
 
 1. JavaScript : **camelCasing** e.g. **camelCaseEverything**
