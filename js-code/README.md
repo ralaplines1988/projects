@@ -1,3 +1,3 @@
 ### Name Vonvention
 
-1. JavaScript : camelCasing e.g. camelCaseEverything
+1. JavaScript : **camelCasing** e.g. **camelCaseEverything**
