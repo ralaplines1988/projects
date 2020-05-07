@@ -13,3 +13,7 @@ Depanding on diffrent operator, some of them are right to left, or left to right
 ### Understanding how to read syntax on MDN
 
 Every word in brackets means it is a option.
+```
+console.log(obj1 [, obj2, ..., objN]);
+console.log(msg [, subst1, ..., substN]);
+```
