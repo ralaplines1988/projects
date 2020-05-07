@@ -31,5 +31,5 @@ y = x++; // y = 3, x = 4 return operand first, so the value of y is 3.
 
 // Prefix
 var a = 2;
-b = ++a; // a = 3, b = 3 operator execute first, so value of b is 3.
+b = ++a; // a = 3, b = 3 operator executing first, so value of b is 3.
 ```
