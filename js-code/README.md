@@ -63,3 +63,7 @@ y = x++; // y = 3, x = 4 return operand first, so the value of y is 3.
 var a = 2;
 b = ++a; // a = 3, b = 3 execute operator first, so value of b is 3.
 ```
+
+### About function 
+
+Function parameters are considered as local variables.
