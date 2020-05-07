@@ -11,7 +11,7 @@ From top to bottom, if don't consider hoist.
 let, const, String Interpolation.
 
 ### About variable
-* JavaScript allows variable declaration without `var` keyword. You must assign a value when you declare a variable without var keyword, it's identified by the assignment operator, and by this way, the variable would be a global variable.
+* JavaScript allows variable declaration without `var` keyword. You must assign a value when you declare a variable without var keyword, it's identified by the assignment operator, and by this way, the variable would be a global variable, even if it's declared in a function.
 * only the var can be hoisted, and only the label, it's value would be `undefined` .
 * Variables hold reusable data in a program and associate it with a name.
 * Variables are stored in memory.
