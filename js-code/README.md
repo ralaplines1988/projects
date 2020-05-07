@@ -17,6 +17,7 @@ const myPet = 'armadillo';
 console.log(`I own a pet ${myPet}.`);
 // Output: I own a pet armadillo.
 ```
+Placeholder ${myPet} insert the value of myPet into the template literal. 
 
 ### operating order in js.
 
