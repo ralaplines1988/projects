@@ -10,6 +10,7 @@ let, const, String Interpolation.
 
 ### About variable
 
+* only the var can be hoisted, and only the label, it's value would be `undefined` .
 * Variables hold reusable data in a program and associate it with a name.
 * Variables are stored in memory.
 * The `var` keyword is used in pre-ES6 versions of JS.
