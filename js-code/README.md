@@ -8,4 +8,4 @@ Think about whether you’ll need to reassign the variable later on. If you do n
 
 ### operating order in js.
 
-depanding on diffrent operator, some of them are right to left, or left to right.
+Depanding on diffrent operator, some of them are right to left, or left to right.
