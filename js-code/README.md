@@ -28,7 +28,8 @@ const myPet = 'armadillo';
 console.log(`I own a pet ${myPet}.`);
 // Output: I own a pet armadillo.
 ```
-Placeholder ${myPet} insert the value of myPet into the template literal. 
+Start the interpolation with a backtick and then end with another backtick.
+Placeholder `${myPet}` insert the value of myPet into the template literal. 
 
 One of the biggest benefits to using template literals is the readability of the code. Using template literals, you can more easily tell what the new string will be. You also don’t have to worry about escaping double quotes or single quotes.
 
