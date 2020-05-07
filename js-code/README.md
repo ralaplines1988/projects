@@ -9,3 +9,7 @@ Think about whether you’ll need to reassign the variable later on. If you do n
 ### operating order in js.
 
 Depanding on diffrent operator, some of them are right to left, or left to right.
+
+### Understanding how to read syntax on MDN
+
+Every word in brackets means it is a option.
