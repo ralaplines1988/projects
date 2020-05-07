@@ -17,3 +17,15 @@ Every word in brackets means it is a option.
 console.log(obj1 [, obj2, ..., objN]);
 console.log(msg [, subst1, ..., substN]);
 ```
+
+### Postfix and Prefix about Increment (++)
+
+```
+// Postfix 
+var x = 3;
+y = x++; // y = 3, x = 4
+
+// Prefix
+var a = 2;
+b = ++a; // a = 3, b = 3
+```
