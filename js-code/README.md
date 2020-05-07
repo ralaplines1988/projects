@@ -8,6 +8,15 @@ From top to bottom, if don't consider hoist.
 
 let, const, String Interpolation.
 
+### About variable
+
+* Variables hold reusable data in a program and associate it with a name.
+* Variables are stored in memory.
+* The `var` keyword is used in pre-ES6 versions of JS.
+* `let` is the preferred way to declare a variable when it can be reassigned, and `const` is the preferred way to declare a variable with a constant value.
+
+* Mathematical assignment operators (`+=, -=, *=, /=`) make it easy to calculate a new value and assign it to the same variable.
+
 ### let or const
 
 Think about whether you’ll need to reassign the variable later on. If you do need to reassign the variable use let, otherwise, use const
