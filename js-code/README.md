@@ -103,7 +103,7 @@ if (testArray.find((ele)=>{
 
 #### Ternary Operator
 
-A ternary operator to simplify an if...else statement.
+`condition? if true : if false` A ternary operator to simplify an if...else statement.
 
 From
 ```
