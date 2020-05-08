@@ -82,5 +82,5 @@ if (true) {
   console.log('This message will print!'); 
 } 
 ```
-Block statement`{}`
+Block statement a set of curly braces`{}`
 Truthy vs falsy values
