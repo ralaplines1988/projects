@@ -104,6 +104,8 @@ if (testArray.find((ele)=>{
 #### Ternary Operator
 
 `condition? if true : if false` A ternary operator to simplify an if...else statement.
+Ternary are not a de facto replacement for if..else, only a convenience to lighten the code.
+[Can ternary operators contain multiple actions?](https://discuss.codecademy.com/t/can-ternary-operators-contain-multiple-actions/428487)
 
 From
 ```
