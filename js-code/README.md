@@ -118,6 +118,8 @@ Setting a default value when declearing.
 ```
 let defaultName = username || 'Stranger';
 ```
+This concept is also referred to as short-circuit evaluation.
+
 3. The not operator, otherwise known as the bang operator (`!`)
 
 Block statement a set of curly braces`{}`
