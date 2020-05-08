@@ -120,6 +120,25 @@ to
 isNightTime ? console.log('Turn on the lights!') : console.log('Turn off the lights!');
 ```
 
+More example: 
+```
+if (a) {
+    return true;
+} else {
+    return false;
+}
+```
+Different way in the same logic.
+```
+return a ? true : false;
+```
+```
+return a ? false : true;
+```
+```
+return ! a;
+```
+
 #### Logical Operators
 
 1. The and operator (`&&`),  both conditions must evaluate to true.
