@@ -6,9 +6,12 @@ From top to bottom, if don't consider hoist.
 
 1. JavaScript : **camelCasing** e.g. **camelCaseEverything**
 
-### ES6 2015
+### ES6 - ES2015
 
-let, const, String Interpolation.
+1. let, const, String Interpolation.
+2. Object Oriented Programming (OOP).
+3. Understanding ES6 is necessary for using popular framework like React.
+4. [Babel](https://babeljs.io/docs/en/config-files)
 
 ### About variable
 * JavaScript allows variable declaration without `var` keyword. You must assign a value when you declare a variable without var keyword, it's identified by the assignment operator, and by this way, the variable would be a global variable, even if it's declared in a function.
@@ -67,3 +70,7 @@ b = ++a; // a = 3, b = 3 execute operator first, so value of b is 3.
 ### About function 
 
 Function parameters are considered as local variables.
+
+### Arrow function 
+
+Arrow functions are not just simply syntactical re-writes. As with other ES6 features, there are other underlying benefits and tradeoffs to consider.
