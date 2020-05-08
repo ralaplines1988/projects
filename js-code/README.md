@@ -110,4 +110,5 @@ function greet(name) {
 3. The not operator, otherwise known as the bang operator (`!`)
 
 Block statement a set of curly braces`{}`
-Truthy vs falsy values
+
+[Truthy](https://developer.mozilla.org/en-US/docs/Glossary/Truthy) vs [falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) values
