@@ -114,7 +114,7 @@ if (username) {
   defaultName = 'Stranger';
 }
 ```
-Set when declearing it
+Setting a default value when declearing.
 ```
 let defaultName = username || 'Stranger';
 ```
