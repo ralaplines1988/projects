@@ -82,5 +82,6 @@ if (true) {
   console.log('This message will print!'); 
 } 
 ```
+You can put anything into the conditional statement as long as the return value of the anything is either true or false(include truthy or falsy value). So you could almost put every thing in the statement.
 Block statement a set of curly braces`{}`
 Truthy vs falsy values
