@@ -77,5 +77,9 @@ Arrow functions are not just simply syntactical re-writes. As with other ES6 fea
 
 
 ### Conditionals
-
+```
+if (true) {
+  console.log('This message will print!'); 
+} 
+```
 Truthy vs falsy values
