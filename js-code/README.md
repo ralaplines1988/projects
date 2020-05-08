@@ -97,9 +97,9 @@ if (testArray.find((ele)=>{
 
 #### Logical Operators
 
-1. the and operator (`&&`)
-2. the or operator (`||`)
-3. the not operator, otherwise known as the bang operator (`!`)
+1. The and operator (`&&`),  both conditions must evaluate to true.
+2. The or operator (`||`), only one of the conditions must evaluate to true. This conditional are sometime used for setting default value of a function.
+3. The not operator, otherwise known as the bang operator (`!`)
 
 Block statement a set of curly braces`{}`
 Truthy vs falsy values
