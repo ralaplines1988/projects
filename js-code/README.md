@@ -83,5 +83,16 @@ if (true) {
 } 
 ```
 You can put anything into the conditional statement as long as the return value of the anything is either true or false(include truthy or falsy value). So you could almost put every thing in the statement.
+```
+const testArray = [5,6,7,8]
+
+if (testArray.find((ele)=>{
+  return ele === 8;
+})) {
+  console.log("Time to eat!")
+} else {
+  console.log('We can eat later!')
+}
+```
 Block statement a set of curly braces`{}`
 Truthy vs falsy values
