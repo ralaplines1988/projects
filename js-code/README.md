@@ -80,6 +80,9 @@ Arrow functions are not just simply syntactical re-writes. As with other ES6 fea
 
 
 ### Conditionals
+
+#### `if...else conditional` also called as binary decisions.
+
 ```
 if (true) {
   console.log('This message will print!'); 
@@ -96,6 +99,25 @@ if (testArray.find((ele)=>{
 } else {
   console.log('We can eat later!')
 }
+```
+
+#### Ternary Operator
+
+A ternary operator to simplify an if...else statement.
+
+From
+```
+let isNightTime = true;
+
+if (isNightTime) {
+  console.log('Turn on the lights!');
+} else {
+  console.log('Turn off the lights!');
+}
+```
+to
+```
+isNightTime ? console.log('Turn on the lights!') : console.log('Turn off the lights!');
 ```
 
 #### Logical Operators
