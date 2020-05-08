@@ -106,7 +106,18 @@ function greet(name) {
   console.log('Hello '+name);
 }
 ```
-
+```
+let defaultName;
+if (username) {
+  defaultName = username;
+} else {
+  defaultName = 'Stranger';
+}
+```
+Set when declearing it
+```
+let defaultName = username || 'Stranger';
+```
 3. The not operator, otherwise known as the bang operator (`!`)
 
 Block statement a set of curly braces`{}`
