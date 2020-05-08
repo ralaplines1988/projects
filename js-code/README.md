@@ -94,5 +94,12 @@ if (testArray.find((ele)=>{
   console.log('We can eat later!')
 }
 ```
+
+#### Logical Operators
+
+1. the and operator (`&&`)
+2. the or operator (`||`)
+3. the not operator, otherwise known as the bang operator (`!`)
+
 Block statement a set of curly braces`{}`
 Truthy vs falsy values
