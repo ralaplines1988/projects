@@ -42,6 +42,7 @@ One of the biggest benefits to using template literals is the readability of the
 ### Operating order in js.
 
 Depanding on diffrent operator, some of them are right to left, or left to right.
+[Operator Precedence](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence).
 
 ### Understanding how to read syntax on MDN
 
@@ -99,6 +100,13 @@ if (testArray.find((ele)=>{
 
 1. The and operator (`&&`),  both conditions must evaluate to true.
 2. The or operator (`||`), only one of the conditions must evaluate to true. This conditional are sometime used for setting default value of a function.
+```
+function greet(name) {
+  name = name || '<enter your name here>';
+  console.log('Hello '+name);
+}
+```
+
 3. The not operator, otherwise known as the bang operator (`!`)
 
 Block statement a set of curly braces`{}`
